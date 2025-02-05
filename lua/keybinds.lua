@@ -11,3 +11,7 @@ vim.keymap.set('n', '<c-h>', '<c-w><c-h>')
 vim.keymap.set('n', '<c-l>', '<c-w><c-l>')
 vim.keymap.set('n', '<c-j>', '<c-w><c-j>')
 vim.keymap.set('n', '<c-k>', '<c-w><c-k>')
+
+-- Set wrap and nowrap
+vim.keymap.set('n', '<leader>nw', ':set nowrap<cr>')
+vim.keymap.set('n', '<leader>w', ':set wrap<cr>')
