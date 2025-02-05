@@ -15,4 +15,10 @@ vim.opt.smartcase = true
 vim.opt.list = true
 vim.opt.listchars = { tab = '··', trail = '·', nbsp = '·' }
 
+vim.opt.scrolloff = 10
+vim.opt.timeoutlen = 300
+
+vim.opt.splitright = true
+vim.opt.splitbelow = true
+
 vim.opt.guicursor = "n-v-c-sm:block,i-ci-ve:block,r-cr-o:hor20"
