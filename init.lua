@@ -30,7 +30,7 @@ require('telescope').setup {}
 require('mason').setup {}
 require('blink.cmp').setup {}
 
-vim.lsp.enable({ 'lua_ls', 'clangd', 'rust_analyzer' })
+vim.lsp.enable({ 'lua_ls', 'clangd', 'rust_analyzer', 'ocamllsp'})
 vim.keymap.set('n', '<leader>d', function() vim.lsp.buf.definition() end)
 vim.keymap.set('n', '<leader>h', function() vim.lsp.buf.hover() end)
 -- vim.keymap.set('n', '<leader>f', function() vim.lsp.buf.format() end)
